@@ -3,4 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  background-image: url('/backgroundAssets/tempcyberpunkcity.svg'); /* Path to your SVG */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }

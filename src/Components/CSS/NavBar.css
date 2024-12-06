@@ -1,0 +1,38 @@
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbarEnds{
+    height: 3.8rem;
+}
+.nav-items .button {
+    background: #422162;
+    border: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0rem;
+    transition: background 0s, outline 3s;
+}
+
+.nav-items .button:hover {
+    background: #663399;
+    outline: 0.1rem solid #422162;
+}
+
+.NavBar {
+    background-color: none; 
+}
+
+
+
+.navflair{
+    height: 4.9rem;
+    margin: -0.3rem;
+}
+
