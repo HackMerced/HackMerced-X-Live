@@ -2,3 +2,10 @@
     background: linear-gradient(120deg, #663399, orange, pink);
 
 }
+
+
+.event-timer-background{
+    width: 20rem;
+    float: left;
+    
+}
