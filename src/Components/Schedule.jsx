@@ -2,6 +2,9 @@ import React from 'react';
 import './CSS/Schedule.css'
 
 
+
+// Schedule + maps
+
 function Schedule() {
     return (
       <div className="Schedule">
