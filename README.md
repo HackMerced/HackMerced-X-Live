@@ -10,11 +10,18 @@ Currently, two official plugins are available:
 Live page for HackMerced X in collaboration with Badger
 
 
-Contribution Guide:
+# Contribution Guide:
 
 1. Go to live page figma https://www.figma.com/design/hBaIAl98hA7fgrKnOhmAkV/HackMerced-X-Live-Page?node-id=0-1&t=ks6Bldnqjj1oBdCY-1
 
 2. Read the ideas in the figma file .
+
+3. Figure out what you want to do and CHECK ISSUES page.  
+    - if issue is already there and claimed do somethingelse sorry
+    - else if issue exists but unclaimed,  claim it and good luck! 
+    - else if issue does not exist, make an issue and claim it!
+
+    claim by just addign a comment liek i will implemenbt this ! 
 
 3. make components to use on webstie.  DO NOT DIRECLTY USE FIGMA COMPONENTS
     - select the figma component by clicking until selecting item
