@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import './CSS/NavBar.css';
 
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
 
   const options = [
-    { value: 'option1', label: 'Option 1' },
-    { value: 'option2', label: 'Option 2' },
-    { value: 'option3', label: 'Option 3' },
+    { value: '/profile', label: 'Settings' },
+    { value: '/logout', label: 'Log Out' },
+    { value: '/hackmerced', label: 'HackMerced X' },
   ];
 
   const toggleDropdown = () => {
@@ -21,9 +22,8 @@ function Dropdown() {
 
   return (
     <div className="dropdown">
-      <button className="dropdown-button" onClick={toggleDropdown}>
+      <button className="button" id="profile-button" onClick={toggleDropdown}>
         {selectedOption ? selectedOption.label : 'Select an option'}
-        <span className="dropdown-arrow">&#9660;</span>
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
@@ -31,7 +31,7 @@ function Dropdown() {
             <li
               key={option.value}
               onClick={() => handleOptionClick(option)}
-              className="dropdown-item"
+              className="button"
             >
               {option.label}
             </li>

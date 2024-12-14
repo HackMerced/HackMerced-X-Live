@@ -23,6 +23,12 @@
     text-align: center;
     border-radius: 0rem;
     transition: background 0.4s;
+    list-style-type: none;
+}
+
+.dropdown-menu{
+    padding-left: 0;
+    position: absolute;
 }
 
 .nav-items .button:hover {
@@ -51,6 +57,7 @@
         align-items: center;
         padding-right: 0;
     }
+
     .nav-items .button{
         width: 8rem;
         height: 4rem;
@@ -60,6 +67,8 @@
         /* border: red solid 3px; */
         /* grid-area: 3 / 1 / 4 / 2; */
         grid-area: 1 / 4 / 2 / 5;
+        position: relative;
+        float:right;
     }
 
     .navflair{
