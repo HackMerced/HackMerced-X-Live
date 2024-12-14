@@ -20,7 +20,7 @@ function App() {
         <Routes>{/* basename={process.env.PUBLIC_URL}  */}
             <Route path="/" element={<MainPage />}/>
             <Route path="/prizes" element={<Prizes />}/>
-            <Route path="/profile" element={<Profile />} />
+            {/* <Route path="/profile" element={<Profile />} /> */}
             <Route path="/punchcard" element={<PunchCard />} />
             <Route path="/schedule" element={<Schedule />}/>
             <Route path="/signup" element={<SignUp />} />

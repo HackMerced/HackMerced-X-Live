@@ -1,5 +1,6 @@
 import React from 'react';
 import './CSS/NavBar.css'
+import './src/Components/dropdown.jsx';
 
 import { Link } from 'react-router-dom';
 
@@ -14,10 +15,11 @@ function NavBar() {
           <li><Link to="/punchcard"><button className="button" id="punch-card-button">PunchCard</button></Link></li>
           
           <img src="/navAssets/navflair.svg" className="navflair"/>
-          <li><Link to="/profile"><button className="button" id="profile-button">Profile</button></Link></li>
+          <li><button className="button" onClick={Dropdown()} id="profile-button">Profile</button></li>
           <img src="/navAssets/navbarRightPart.svg" className="navbarRight"/>
           
         </ul>
+        
             
       </div>
     );
