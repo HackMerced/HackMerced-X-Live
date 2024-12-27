@@ -8,8 +8,10 @@ import './CSS/Schedule.css'
 function Schedule() {
     return (
       <div className="Schedule">
-        <img src="/scheduleAssets/HackMercedTower.svg" className='hackmerced-tower' alt='HackMerced Tower'/>
         
+        <div className="hackmerced-tower">
+          <img src="/scheduleAssets/HackMercedTower.svg" className='hackmerced-tower-img' alt='HackMerced Tower'/>
+        </div>
         <div className='event-card'>
           <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>

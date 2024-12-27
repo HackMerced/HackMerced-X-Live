@@ -11,13 +11,22 @@
     gap: 10rem; 
     height: auto;
 }
-
+  
 
 .hackmerced-tower{
-    /* border: red solid 3px; */
-    position: fixed;
+    /* border: red dotted 3px; */
+    position: sticky;
+    /* top: -20rem; */
+    top: 0rem;
     left: -12rem;
-    top: -20rem;    
+    padding: 0rem;
+    margin-left: -20rem;
+    margin-top: 10rem;
+    z-index: 2; 
+}
+.hackmerced-tower-img{
+    margin-top: -35rem;
+    /* border: blue 3px solid; */
 }
 
 .schedule-panel{
@@ -33,6 +42,7 @@
     display: flex;
     align-items: flex-start; 
     gap: 2rem;
+    top: -130rem;
 }
 
 
