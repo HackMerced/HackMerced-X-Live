@@ -12,7 +12,7 @@ function MainPage() {
               <img src="/mainAssets/darkpurple.svg" alt="" className="darkpurlple-small-panel" />
               <div className="panel-text">
                 <h2>COMPLETE HACKING IN:</h2>
-                <h1>00:00:00</h1>
+                <h1 className='countdown-timer'>00:00:00</h1>
               </div>
           </div>
           <div className="main-page-announcment-panel">
@@ -20,6 +20,11 @@ function MainPage() {
             <div className="panel-text">
                 <h1>ANNOUNCMENTS</h1>
                 <div className="contain-announcments">
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
                   <h3>Snacks available at COB2 105</h3>
                 </div>
             </div>

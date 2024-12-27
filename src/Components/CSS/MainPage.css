@@ -1,7 +1,7 @@
 .hackmerced-tower {
     position: fixed;
     bottom: -600px;
-    left: 70px;
+    left: 20px;
     animation: pop-up .8s ease-in-out forwards;
     z-index: 1000;
 }
@@ -19,14 +19,15 @@
     align-items: center;
     position: relative;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .main-page-countdown-panel {
     position: relative;
-    right: 225px;
-    top: 25px;
-    width: 500px;
-    height: 325px;
+    right: 251px;
+    top: 20px;
+    width: 450px;
+    height: 255px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,10 +35,10 @@
 
 .main-page-announcment-panel {
     position: relative;
-    left: 225px;
-    bottom: 20px;
-    width: 500px;
-    height: 325px;
+    left: 255px;
+    bottom: 40px;
+    width: 700px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,24 +60,29 @@
 .panel-text h1 {
     margin: 0;
     padding: 0;
+    font-size: 44px;
+}
+
+.countdown-timer {
+    font-size: 60px !important;
 }
 
 .panel-text h2 {
-    font-size: 44px;
-    margin: 0;
+    font-size: 34px;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 
 .contain-announcments {
-    height: 200px;
-    width: 350px;
+    height: 340px;
+    width: 425px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
 .contain-announcments h3 {
     background: #AB58FF;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .purlple-medium-panel {
