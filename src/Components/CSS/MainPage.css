@@ -1,3 +1,17 @@
+.hackmerced-tower {
+    position: fixed;
+    bottom: -600px;
+    left: 70px;
+    z-index: 1000;
+    animation: pop-up .8s ease-in-out forwards;
+}
+
+@keyframes pop-up {
+    100% {
+        bottom: 0px;
+    }
+}
+
 .main-page-contian-panels {
     display: flex;
     width: 100%;
@@ -8,33 +22,48 @@
     flex-direction: column;
 }
 
-.MainPage h1 {
-    visibility: hidden;
-}
-
 .main-page-countdown-panel {
-    background-image: url(/mainAssets/Prize-Screen.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
     position: relative;
-    left: 175px;
-    bottom: 20px;
-    border: 1px solid red;
-    width: 400px;
-    height: 300px;
-
+    right: 225px;
+    top: 25px;
+    width: 500px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-page-announcment-panel {
-    background-image: url(/mainAssets/Countdown-Background.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
     position: relative;
-    right: 175px;
-    top: 20px;
-    border: 1px solid red;
-    width: 400px;
-    height: 300px;
+    left: 225px;
+    bottom: 20px;
+    width: 500px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.panel-text {
+    z-index: 1001;
+}
+
+.panel-text h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.contain-announcments {
+    height: 200px;
+}
+
+.contain-announcments p {
+    background: #AB58FF;
 }
