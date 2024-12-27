@@ -1,0 +1,90 @@
+
+
+.Schedule{
+    /* border: green 3px solid; */
+    height: 500rem;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10rem; 
+    height: auto;
+}
+
+
+.hackmerced-tower{
+    /* border: red solid 3px; */
+    position: fixed;
+    left: -12rem;
+    top: -14rem;    
+}
+
+.schedule-panel{
+    position: absolute;
+    /* border: purple 20px solid; */
+    left: 18rem;
+    z-index: 1;
+}
+
+.event-card{
+    position: relative;
+    /* border: blue 3px solid; */
+    display: flex;
+    align-items: flex-start; 
+    gap: 2rem;
+}
+
+
+
+
+.event-content{
+    z-index: 3;
+    position: relative;
+    top: 0rem;
+    left: 30rem;
+
+    /* border: 3px red solid; */
+    max-width:30rem;
+    text-align: left;
+}
+.event-title{
+    z-index: 3;
+    font-size:200%;
+    /* border: solid 3px red; */
+    margin-bottom: 0rem;
+}
+.start-time{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.duration{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.location{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.contents{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.capacity{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.reward{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+
+
+.map{
+    z-index: 4;
+    max-width: 30rem;
+    position: absolute;
+    left: 32rem;
+    top: 1.5rem;
+}
+
