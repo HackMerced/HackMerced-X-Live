@@ -11,7 +11,7 @@ function MainPage() {
               <img src="/mainAssets/purple.svg" alt="" className="purlple-medium-panel" />
               <img src="/mainAssets/darkpurple.svg" alt="" className="darkpurlple-small-panel" />
               <div className="panel-text">
-                <h1>COMPLETE HACKING IN:</h1>
+                <h2>COMPLETE HACKING IN:</h2>
                 <h1>00:00:00</h1>
               </div>
           </div>
@@ -20,7 +20,7 @@ function MainPage() {
             <div className="panel-text">
                 <h1>ANNOUNCMENTS</h1>
                 <div className="contain-announcments">
-                  <p>Snacks available at COB2 105</p>
+                  <h3>Snacks available at COB2 105</h3>
                 </div>
             </div>
           </div>

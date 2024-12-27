@@ -8,7 +8,7 @@
 
 @keyframes pop-up {
     100% {
-        bottom: 0px;
+        bottom: -10px;
     }
 }
 
@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1004;
 }
 
 .panel-background {
@@ -60,12 +61,22 @@
     padding: 0;
 }
 
-.contain-announcments {
-    height: 200px;
+.panel-text h2 {
+    font-size: 44px;
+    margin: 0;
+    padding: 0;
 }
 
-.contain-announcments p {
+.contain-announcments {
+    height: 200px;
+    width: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.contain-announcments h3 {
     background: #AB58FF;
+    font-size: 24px;
 }
 
 .purlple-medium-panel {
@@ -88,6 +99,14 @@
         top: -25px;
         left: -25px;
     }
+    25% {
+        top: -20px;
+        left: -20px;
+    }
+    50% {
+        top: -20px;
+        left: -20px;
+    }
     100% {
         top: -20px;
         left: -20px;
@@ -98,6 +117,14 @@
     0% {
         top: -45px;
         left: -45px;
+    }
+    25% {
+        top: -40px;
+        left: -40px;
+    }
+    50% {
+        top: -40px;
+        left: -40px;
     }
     100% {
         top: -40px;
