@@ -1,11 +1,40 @@
-.MainPage{
-    background: linear-gradient(120deg, #663399, orange, pink);
+.main-page-contian-panels {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.MainPage h1 {
+    visibility: hidden;
+}
+
+.main-page-countdown-panel {
+    background-image: url(/mainAssets/Prize-Screen.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+    left: 175px;
+    bottom: 20px;
+    border: 1px solid red;
+    width: 400px;
+    height: 300px;
 
 }
 
+.main-page-announcment-panel {
+    background-image: url(/mainAssets/Countdown-Background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-.event-timer-background{
-    width: 20rem;
-    float: left;
-    
+    position: relative;
+    right: 175px;
+    top: 20px;
+    border: 1px solid red;
+    width: 400px;
+    height: 300px;
 }
