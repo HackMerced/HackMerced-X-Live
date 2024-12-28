@@ -9,6 +9,7 @@
     align-items: flex-start;
     gap: 10rem; 
     height: min-content;
+    left: -9rem;
 }
   
 
@@ -17,7 +18,7 @@
     position: sticky;
     /* top: -20rem; */
     top: 0rem;
-    left: -12rem;
+    left: -18rem;
     padding: 0rem;
     margin-left: -20rem;
     margin-top: 10rem;
@@ -31,7 +32,7 @@
 .schedule-panel{
     position: absolute;
     /* border: purple 20px solid; */
-    left: 18rem;
+    left: 16rem;
     z-index: 1;
 }
 .small-schedule-panel{
