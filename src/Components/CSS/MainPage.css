@@ -1,14 +1,25 @@
-.hackmerced-tower {
-    position: fixed;
-    bottom: -600px;
-    left: 20px;
+.MainPage{
+    /* border: red solid 3px; */
+    position: relative;
+}
+
+
+.MainPage-hackmerced-tower {
+    position: absolute;
+    /* border: purple 3px solid; */
+    top: 100rem;
+    left: 4rem;
     animation: pop-up .8s ease-in-out forwards;
     z-index: 1000;
 }
 
 @keyframes pop-up {
+    0% {
+        top: 100rem;
+    }
     100% {
-        bottom: -10px;
+        top: -5rem;
+        z-index: 1000;
     }
 }
 
@@ -19,7 +30,7 @@
     align-items: center;
     position: relative;
     flex-direction: column;
-    margin-top: 30px;
+    height: fit-content;
 }
 
 .main-page-countdown-panel {
@@ -136,9 +147,4 @@
         top: -40px;
         left: -40px;
     }
-}
-
-/* Viewports */
-
-@media screen and (min-width: 300px) and (max-width: 880px) {
 }
