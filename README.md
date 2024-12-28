@@ -36,10 +36,15 @@ Live page for HackMerced X in collaboration with Badger
 3. implement the change in a new branch off of most up to date branch.
     - git checkout -b "NEW BRANCH NAME"
 
+    - refer to last years figma for design https://www.figma.com/design/BL2BJZ0EzKiqzcg5Edo2v7/HackMerced-Live-Page?node-id=0-1&t=HDP7kofDEAR2CIPQ-1
+    - ask on hackmerced discrod if not able ot access
+    - but for the actual elements that are needed look at shawn's database diagram which i have inserted in the figma https://www.figma.com/design/hBaIAl98hA7fgrKnOhmAkV/HackMerced-X-Live-Page?node-id=0-1&t=FaluohVAPqRWPZ9P-1
+
+
     - make sure to look at mobile view responsiveness and test with other browsers.
     
 
-4. commit often!    git add .   git commit -m "NAME, WHAT YOU CHANGED"  
+4. commit and Push often!    git add .   git commit -m "NAME, WHAT YOU CHANGED"  
 5. git push
     - might ask you to set upstream, jsut copy the command provided
 
