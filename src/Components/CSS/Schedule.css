@@ -1,0 +1,150 @@
+
+
+.Schedule{
+    /* border: green 3px solid; */
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10rem; 
+    height: min-content;
+    left: -9rem;
+}
+  
+
+.hackmerced-tower{
+    /* border: red dotted 3px; */
+    position: sticky;
+    /* top: -20rem; */
+    top: 0rem;
+    left: -18rem;
+    padding: 0rem;
+    margin-left: -20rem;
+    margin-top: 10rem;
+    z-index: 2; 
+}
+.hackmerced-tower-img{
+    margin-top: -35rem;
+    /* border: blue 3px solid; */
+}
+
+.schedule-panel{
+    position: absolute;
+    /* border: purple 20px solid; */
+    left: 16rem;
+    z-index: 1;
+}
+.small-schedule-panel{
+    display: none;
+}
+
+.event-card{
+    position: relative;
+    /* border: blue 3px solid; */
+    display: flex;
+    align-items: flex-start; 
+    gap: 2rem;
+    top: -130rem;
+}
+
+
+
+
+.event-content{
+    z-index: 3;
+    position: relative;
+    top: 0rem;
+    left: 30rem;
+
+    /* border: 3px red solid; */
+    max-width:30rem;
+    text-align: left;
+}
+.event-title{
+    z-index: 3;
+    font-size:200%;
+    /* border: solid 3px red; */
+    margin-bottom: 0rem;
+}
+.start-time{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.duration{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.location{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.contents{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.capacity{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+.reward{
+    z-index: 3;
+    margin-bottom: -1rem;
+}
+
+
+.map{
+    z-index: 4;
+    max-width: 30rem;
+    position: absolute;
+    left: 32rem;
+    top: 1.5rem;
+    outline: #422162 0.6rem solid;
+}
+
+
+/* Viewports */
+
+@media screen and (min-width: 300px) and (max-width: 880px) {
+    .hackmerced-tower-img{
+        /* border: red solid 3px; */
+        margin-left: -12rem;
+        margin-top: -45rem;
+    }
+
+    .Schedule{
+        gap: 30rem;
+    }
+
+    .event-card{
+        /* border: blue 3px solid; */
+        left: -18.5rem;
+        top: -145rem;
+    }
+    .event-content{
+        /* border: solid green 3px; */
+        max-width: 25rem;
+        max-height: 20rem;
+        display: block;
+    }
+    .schedule-panel{
+        display: none;
+    }
+    .small-schedule-panel{
+        display: flex;
+        position: absolute;
+        /* border: purple 20px solid; */
+        left: 18rem;
+        z-index: 1;
+        /* width: 300%; */
+    }
+
+    .map{
+        z-index: 4;
+        max-width: 25rem;
+        position:inherit;
+        left: 0rem;
+        top: 5rem;
+    }
+}
+

@@ -1,5 +1,9 @@
 .NavBar {
     background-color: none; 
+    position: sticky;
+    top: 0rem;
+    right: 0rem;
+    z-index: 100;
 }
 
 .nav-items {

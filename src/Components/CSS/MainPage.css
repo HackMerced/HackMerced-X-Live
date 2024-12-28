@@ -1,11 +1,150 @@
 .MainPage{
-    background: linear-gradient(120deg, #663399, orange, pink);
-
+    /* border: red solid 3px; */
+    position: relative;
 }
 
 
-.event-timer-background{
-    width: 20rem;
-    float: left;
-    
+.MainPage-hackmerced-tower {
+    position: absolute;
+    /* border: purple 3px solid; */
+    top: 100rem;
+    left: 4rem;
+    animation: pop-up .8s ease-in-out forwards;
+    z-index: 1000;
+}
+
+@keyframes pop-up {
+    0% {
+        top: 100rem;
+    }
+    100% {
+        top: -5rem;
+        z-index: 1000;
+    }
+}
+
+.main-page-contian-panels {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.main-page-countdown-panel {
+    position: relative;
+    right: 251px;
+    top: 20px;
+    width: 450px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page-announcment-panel {
+    position: relative;
+    left: 255px;
+    bottom: 40px;
+    width: 700px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1004;
+}
+
+.panel-background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.panel-text {
+    z-index: 1001;
+}
+
+.panel-text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 44px;
+}
+
+.countdown-timer {
+    font-size: 60px !important;
+}
+
+.panel-text h2 {
+    font-size: 34px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.contain-announcments {
+    height: 340px;
+    width: 425px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.contain-announcments h3 {
+    background: #AB58FF;
+    font-size: 34px;
+}
+
+.purlple-medium-panel {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 998;
+    animation: haptics 1s 0.5s ease-in-out infinite;
+}
+
+.darkpurlple-small-panel {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    animation: haptics2 1s 0.7s ease-in-out infinite;
+}
+
+@keyframes haptics {
+    0% {
+        top: -25px;
+        left: -25px;
+    }
+    25% {
+        top: -20px;
+        left: -20px;
+    }
+    50% {
+        top: -20px;
+        left: -20px;
+    }
+    100% {
+        top: -20px;
+        left: -20px;
+    }
+}
+
+@keyframes haptics2 {
+    0% {
+        top: -45px;
+        left: -45px;
+    }
+    25% {
+        top: -40px;
+        left: -40px;
+    }
+    50% {
+        top: -40px;
+        left: -40px;
+    }
+    100% {
+        top: -40px;
+        left: -40px;
+    }
 }
