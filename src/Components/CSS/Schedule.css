@@ -108,17 +108,18 @@
 @media screen and (min-width: 300px) and (max-width: 880px) {
     .hackmerced-tower-img{
         /* border: red solid 3px; */
-        margin-left: -12rem;
+        margin-left: -9rem;
         margin-top: -45rem;
     }
 
     .Schedule{
         gap: 30rem;
+        left: 0rem;
     }
 
     .event-card{
         /* border: blue 3px solid; */
-        left: -18.5rem;
+        left: -22.5rem;
         top: -145rem;
     }
     .event-content{
