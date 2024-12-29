@@ -1,4 +1,89 @@
+.prizes-points {
+    font-size: 6rem;
+    font-weight: bold;
+    background-image: url("/prizeAssets/counter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    user-select: none;
+    mix-blend-mode: hard-light;
+}
+.prizes-points > p { padding:0; margin:0; }
 
+.prizes-listingcontainer {
+    /* width:80vw; */
+
+}
+
+.prizes-header {
+    background-image: url("/prizeAssets/header.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:60rem;
+    user-select:none;
+    margin-top:3rem;
+    font-size:1.5rem;
+}
+.prizes-header > div {
+    display:inline-block;
+    margin:0 2.9rem;
+    font-weight: 800;
+    /* border: red solid 3px; */
+}
+
+.prizes-table {
+    width:100%;
+}
+
+.prize {
+    height:8rem;
+    font-size: 1.5rem;
+    background-image:url("prizeAssets/row.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60rem;
+    margin: 0rem 0rem 1.5rem;
+}
+.prize:nth-child(even){
+    filter: hue-rotate(10deg);
+}
+.prize > img {
+    position:absolute;
+    height:5rem;
+    transform:translateX(-80%);
+}
+
+.prizes-claim {
+    /* margin:0rem 3rem; */
+}
+.prize-text {
+    position:absolute;
+    margin-top:2rem;
+    transform:translateX(40%);
+    /* margin-left:100%; */
+}
+.prize-text > div {
+    display:inline-block;
+    margin:0 1rem;
+}
+.prize-name {
+    width:8rem;
+    font-weight: 800;
+}
+.prize-desc {
+    width:8rem;
+    font-weight: 500;
+}
+.prize-cost {
+    width:8rem;
+    font-weight: 500;
+}
+.prize-quantity {
+    width:8rem;
+    font-weight: 500;
+}
+
+/* man builds worlds least responsive page; asked to leave project */
 
 /* Viewports */
 
