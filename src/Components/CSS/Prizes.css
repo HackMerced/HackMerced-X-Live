@@ -26,7 +26,9 @@
 }
 .prizes-header > div {
     display:inline-block;
-    margin:0 1rem;
+    margin:0 2.9rem;
+    font-weight: 800;
+    /* border: red solid 3px; */
 }
 
 .prizes-table {
@@ -40,6 +42,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:60rem;
+    margin: 0rem 0rem 1.5rem;
 }
 .prize:nth-child(even){
     filter: hue-rotate(10deg);

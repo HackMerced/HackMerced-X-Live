@@ -56,7 +56,12 @@ function Prizes() {
       </div>
       <div className="prizes-listingcontainer">
         <div className="prizes-header">
-          <div>&nbsp;</div>
+          {/* <div>&nbsp;</div> */}
+          <div>Prize</div>
+          <div>Description</div>
+          <div>Cost</div>
+          <div>Quantity</div>
+          <div>Claim</div>
         </div>
         <div className="prizes-table">
           {prizeArray.map(item => {
