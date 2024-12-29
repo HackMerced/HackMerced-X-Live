@@ -148,3 +148,48 @@
         left: -40px;
     }
 }
+
+@media (max-width: 650px) {
+    .main-page-announcment-panel {
+        left: 0;
+        bottom: 0;
+        margin-top: 10px;
+
+        width: 450px;
+        height: 300px;
+    }
+
+    .main-page-countdown-panel {
+        right: 0;
+        top: 0;
+        margin-bottom: 10px;
+    }
+
+    .main-page-contian-panels {
+        padding: 50px 0 50px 0;
+        border: 1px solid red;
+    }
+
+    .MainPage-hackmerced-tower {
+        display: none;
+    }
+
+    .contain-announcments {
+        width: 400px;
+        height: 200px;
+    }
+
+    .contain-announcments h3 {
+        font-size: 24px;
+    }
+
+    .panel-text h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-page-contian-panels {
+        padding: 50px 90px 50px 90px;
+    }
+}
