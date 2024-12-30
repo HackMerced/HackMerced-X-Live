@@ -7,7 +7,7 @@ function MainPage() {
 
         <div className="main-page-contian-panels">
           <div className="main-page-countdown-panel">
-              <img src="/mainAssets/Countdown-Background.svg" alt="CountDown Panel Background" className="panel-background" />
+              <img src="/mainAssets/Countdown-Background.svg" alt="CountDown Panel Background" className="panel-background countdown-background" />
               <img src="/mainAssets/purple.svg" alt="Purple Panel Background" className="purlple-medium-panel" />
               <img src="/mainAssets/darkpurple.svg" alt="Pink Panel Background" className="darkpurlple-small-panel" />
               <div className="panel-text">
@@ -17,8 +17,9 @@ function MainPage() {
           </div>
 
           <div className="main-page-announcment-panel">
-            <img src="/mainAssets/Prize-Screen.svg" alt="Announcement Panel Background" className="panel-background" />
-            <div className="panel-text">
+            <img src="/mainAssets/Prize-Screen.svg" alt="Announcement Panel Background" className="panel-background announcment-desktop" />
+            <img src="/mainAssets/Announcment-Mobile-Ver.svg" alt="Announcement Panel Background" className="panel-background announcment-mobile" />
+            <div className="panel-text annountment-panel-text">
                 <h1>ANNOUNCMENTS</h1>
                 <div className="contain-announcments">
                   <h3>Snacks available at COB2 105 please come before all of the food is gone</h3>
