@@ -1,5 +1,6 @@
 import React from 'react';
-import './CSS/NavBar.css'
+import './CSS/NavBar.css';
+import Dropdown from './dropdown';
 
 import { Link } from 'react-router-dom';
 
@@ -12,12 +13,14 @@ function NavBar() {
           <li><Link to="/prizes"><button className="button" id="about-us-button">Prizes</button></Link></li>
           <li><Link to="/schedule"><button className="button" id="schedule-button">Schedule</button></Link></li>
           <li><Link to="/punchcard"><button className="button" id="punch-card-button">PunchCard</button></Link></li>
-          
           <img src="/navAssets/navflair.svg" className="navflair"/>
-          <li><Link to="/profile"><button className="button" id="profile-button">Profile</button></Link></li>
+          <Dropdown />
+{/* 
+          <li><button className="button" id="profile-button">Profile</button></li> */}
           <img src="/navAssets/navbarRightPart.svg" className="navbarRight"/>
           
         </ul>
+        
             
       </div>
     );
