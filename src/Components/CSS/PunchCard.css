@@ -1,6 +1,41 @@
+.punch-body{
+
+    display: inline-flex;
+    align-items: center;
+}
+.container-parent{
+    display: flex;
+    background-color: #422162;
+    width: 95vw;
+    height: 67vh;
+    flex: 1;
+}
+.container-child {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-self: center;
+    border-color: #422162;
+    border-style: solid;
+    border-width: 1em;
+    width: 90vw;
+    height: 60vh;
+    background-color: #663399;
+    padding: 1em; 
+    clip-path: polygon(
+        0 20%,
+        10% 0,
+        100% 0,
+        100% 80%,
+        90% 100%,
+        0% 100%
+    );
+    flex: 2;
+}
 
 
 /* Viewports */
 
 @media screen and (min-width: 300px) and (max-width: 880px) {
+
 }
