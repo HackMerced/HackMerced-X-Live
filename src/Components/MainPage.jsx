@@ -28,6 +28,26 @@ function MainPage() {
                   <h3>Snacks available at COB2 105</h3>
                   <h3>Snacks available at COB2 105</h3>
                   <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105</h3>
                 </div>
             </div>
           </div>
