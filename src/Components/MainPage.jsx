@@ -21,8 +21,8 @@ function MainPage() {
             <div className="panel-text">
                 <h1>ANNOUNCMENTS</h1>
                 <div className="contain-announcments">
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
+                  <h3>Snacks available at COB2 105 please come before all of the food is gone</h3>
+                  <h3>Snacks available at COB2 105Snacks available at COB2 105 please come before all of the food is goneSnacks available at COB2 105 please come before all of the food is gone</h3>
                   <h3>Snacks available at COB2 105</h3>
                   <h3>Snacks available at COB2 105</h3>
                   <h3>Snacks available at COB2 105</h3>
