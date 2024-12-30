@@ -149,7 +149,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 880px) {
     .main-page-announcment-panel {
         left: 0;
         bottom: 0;
@@ -167,7 +167,6 @@
 
     .main-page-contian-panels {
         padding: 50px 0 50px 0;
-        border: 1px solid red;
     }
 
     .MainPage-hackmerced-tower {
