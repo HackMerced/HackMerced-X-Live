@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import './CSS/NavBar.css';
+import { useNavigate } from 'react-router-dom';
 
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(null);
+  const navigate = useNavigate();
 
   const options = [
     { value: '/profile', label: 'Settings' },
-    { value: '/logout', label: 'Log Out' },
-    { value: '/hackmerced', label: 'HackMerced X' },
+    { value: '/login', label: 'Log Out' },
+    // { value: '/hackmerced', label: 'HackMerced X' },
   ];
 
   const toggleDropdown = () => {
@@ -16,14 +17,14 @@ function Dropdown() {
   };
 
   const handleOptionClick = (option) => {
-    setSelectedOption(option);
     setIsOpen(false);
+    navigate(option.value);
   };
 
   return (
     <div className="dropdown">
       <button className="button" id="profile-button" onClick={toggleDropdown}>
-        {selectedOption ? selectedOption.label : 'Select an option'}
+        Profile
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
