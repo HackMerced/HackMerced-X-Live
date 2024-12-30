@@ -4,11 +4,15 @@ import './CSS/NavBar.css';
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
+  const image = document.createElement("img");
+  image.src = "public\vite.svg";
 
   const options = [
-    { value: '/profile', label: 'Settings' },
+    { link: '/profile', label: 'Settings' },
     { value: '/logout', label: 'Log Out' },
-    { value: '/hackmerced', label: 'HackMerced X' },
+    { value: '/hackmerced', label: 'HackMerced X' }
+
+    
   ];
 
   const toggleDropdown = () => {
@@ -23,7 +27,7 @@ function Dropdown() {
   return (
     <div className="dropdown">
       <button className="button" id="profile-button" onClick={toggleDropdown}>
-        {selectedOption ? selectedOption.label : 'Select an option'}
+        {selectedOption ? selectedOption.src : 'public\vite.svg' }
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
