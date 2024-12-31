@@ -3,7 +3,7 @@
     position: sticky;
     top: 0rem;
     right: 0rem;
-    z-index: 100;
+    z-index: 3000;
 }
 
 .nav-items {
