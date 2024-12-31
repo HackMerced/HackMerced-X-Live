@@ -11,28 +11,28 @@ function PunchCard() {
         <div className='punch-body'>
           <div className='container-parent'>
             <div className='container-child'>
-              <div class="container-child-content">
-                <table id="punches" class="rounded-table no-color">
+              <div className="container-child-content">
+                <table id="punches" className="rounded-table no-color">
                   <tr>
-                    <td class="title">Breakfast</td>
-                    <td><div class="punch true"></div></td>
-                    <td><div class="punch false"/></td>
-                    <td><div class="punch false"/></td>
-                    <td class="spacer"></td>
+                    <td className="title">Breakfast</td>
+                    <td><div className="punch true"></div></td>
+                    <td><div className="punch false"/></td>
+                    <td><div className="punch false"/></td>
+                    <td className="spacer"></td>
                   </tr>
                   <tr>
-                    <td class="title">Lunch</td>
-                    <td><div class="punch true"></div></td>
-                    <td><div class="punch true"></div></td>
-                    <td><div class="punch false"/></td>
-                    <td class="spacer"></td>
+                    <td className="title">Lunch</td>
+                    <td><div className="punch true"></div></td>
+                    <td><div className="punch true"></div></td>
+                    <td><div className="punch false"/></td>
+                    <td className="spacer"></td>
                   </tr>
                   <tr>
-                    <td class="title">Dinner</td>
-                    <td><div class="punch true"></div></td>
-                    <td><div class="punch true"></div></td>
-                    <td><div class="punch false"/></td>
-                    <td class="spacer"></td>
+                    <td className="title">Dinner</td>
+                    <td><div className="punch true"></div></td>
+                    <td><div className="punch true"></div></td>
+                    <td><div className="punch false"/></td>
+                    <td className="spacer"></td>
                   </tr>
                   </table>
                   <center className='punch-inst'>

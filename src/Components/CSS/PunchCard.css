@@ -99,19 +99,33 @@ h1{
 @media screen and (max-width: 880px) {
     .punch-header{
         font-size: unset;
-        padding: 1em;
+
         filter: unset;
     }
     h1{
-        font-size: larger;
+        font-size: large;
+    }
+    .punch-inst{
+        font-size: 1em;
+        width: 50vw;
+        display: inline-flex;
+        justify-content: center;
     }
     .punch-body{
         display: unset;
     }
+    .container-child{
+        border-style: none;
+        width: unset;
+        padding: 0;
+    }
     .container-child-content{
         width: unset;
+        
     }
-    .punch-inst{
-        font-size: unset;
+
+    .container-parent, .container-child{
+
+        height: auto;
     }
 }
