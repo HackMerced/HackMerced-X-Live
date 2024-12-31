@@ -1,4 +1,78 @@
 
+* {
+    font-family: 'Rajdhani';
+}
+
+.login-container {
+    /* display: flex; */     
+    height: 80vh;
+    width: 50vw;
+    margin-left:auto;
+    overflow: hidden;
+    margin-right:auto;
+    /* margin-top : 10vh; */
+    /* background-color: #422162;
+     */
+    background-image: url('../public/authAssets/authPanel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Adjust the image size */
+
+
+}
+
+
+
+.title {
+    color :#FF55FF;
+    font-size:5em !important;
+}
+
+
+form {
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1em;
+}
+
+
+input {
+    background-color: #C0FCFF;
+    padding :.5em;
+    color :#422162;
+    font-weight: 1000;
+    font-size: 2em;
+    width :80%;
+
+    /* font-family: 'Rajdhani'; */
+
+}
+
+button {
+    background-color: #FFA052;
+    color :#422162 ;
+    font-weight: 1000;
+}
+
+#login, #signup {
+    width :40%;
+    font-size: 1.25em;
+
+}
+
+
+
+
+
+::placeholder {
+    text-align: center;
+    font-family: 'Rajdhani';
+    color :#422162;
+    font-size: 1.5em;
+    font-weight: 1000;
+}
 
 
 /* Viewports */
