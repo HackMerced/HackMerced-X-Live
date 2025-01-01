@@ -1,0 +1,56 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #ccc; */
+    width: 80vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url('../public/authAssets/authPanel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Adjust the image size */
+    align-content: center !important;
+  }
+
+  .title {
+    color :#FF55FF;
+    font-size:5em !important;
+}
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; 
+    /* Adjust to fit your design */
+    align-items: center;
+  }
+  
+  .form-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 4em; /* Space between the sections */
+  }
+  
+  .credentials, .profile {
+    flex: 1; /* Take equal space */
+  }
+  
+  .credentials input, .profile input {
+    /* width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; */
+    background-color: #C0FCFF;
+    padding :.5em;
+    font-weight: 1000;
+    width :80%;
+    color :#422162;
+    font-size: 1em;
+
+  }
+

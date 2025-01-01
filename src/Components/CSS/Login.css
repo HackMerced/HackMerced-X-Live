@@ -21,33 +21,28 @@
 
 }
 
-
-
 .title {
     color :#FF55FF;
     font-size:5em !important;
 }
 
 
-form {
+.login-container form{
     display:flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     gap: 1em;
 }
 
-
-input {
+.login-form input {
     background-color: #C0FCFF;
     padding :.5em;
     color :#422162;
     font-weight: 1000;
     font-size: 2em;
     width :80%;
-
     /* font-family: 'Rajdhani'; */
-
 }
 
 button {
