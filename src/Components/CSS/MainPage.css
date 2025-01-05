@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: red solid 3px;
+    /* outline: red solid 3px; */
 }
 
 .main-page-announcment-panel {
