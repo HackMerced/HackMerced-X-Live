@@ -37,11 +37,12 @@
     position: relative;
     right: 251px;
     top: 20px;
-    width: 450px;
+    width: 455px;
     height: 255px;
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: red solid 3px;
 }
 
 .main-page-announcment-panel {
