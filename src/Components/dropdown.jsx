@@ -4,13 +4,11 @@ import { useNavigate } from 'react-router-dom';
 
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(null);
   const navigate = useNavigate();
 
   const options = [
     { value: '/profile', label: 'Settings' },
     { value: '/login', label: 'Log Out' },
-    // { value: '/hackmerced', label: 'HackMerced X' },
   ];
 
   const toggleDropdown = () => {
@@ -25,7 +23,7 @@ function Dropdown() {
   return (
     <div className="dropdown">
       <button className="button" id="profile-button" onClick={toggleDropdown}>
-        Profile
+        <center><img src="/navAssets/profileIcon.svg"></img></center>
       </button>
       {isOpen && (
         <ul className="dropdown-menu">

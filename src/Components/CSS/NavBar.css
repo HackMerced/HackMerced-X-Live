@@ -49,6 +49,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 880px) {
+
     .nav-items {
         display: grid;  
         grid-template-columns: 8rem 8rem 8rem;  
@@ -64,8 +65,6 @@
     }
     /* Specific styling for the last "Profile" button to go on its own row */
     #profile-button {
-        /* border: red solid 3px; */
-        /* grid-area: 3 / 1 / 4 / 2; */
         grid-area: 1 / 4 / 2 / 5;
         position: relative;
         float:right;
