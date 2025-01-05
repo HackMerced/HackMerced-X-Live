@@ -79,9 +79,10 @@
 }
 
 .panel-text h2 {
+    /* outline: solid 10px blue; */
     font-size: 34px;
-    margin: 0 0 20px 0;
-    padding: 0;
+    margin: 0 0 0.1rem 0;
+    width: 15rem;
 }
 
 .contain-announcments {
@@ -153,7 +154,7 @@
     }
 }
 
-@media (max-width: 880px) {
+@media screen and (min-width: 300px) and (max-width: 880px) {
     .main-page-announcment-panel {
         left: 0;
         bottom: 0;
@@ -165,10 +166,28 @@
     .main-page-countdown-panel {
         right: 0;
         top: 0;
+        /* width: 80vw;
+        height: 50%; */
+        /* outline: red solid 3px; */
+        
+    }
+
+    .panel-background countdown-background{
+        width: 150%;
+    }
+
+    .panel-text h2 {
+        /* outline: solid 10px blue; */
+        font-size: 34px;
+        padding: 3rem 3rem 0rem;
+    }
+    .countdown-timer{
+        /* outline: red solid 3px; */
+        height: 6rem;
     }
 
     .main-page-contian-panels {
-        padding: 50px 0 50px 0;
+        padding: 50px 1rem 50px 1rem;
     }
 
     .MainPage-hackmerced-tower {
@@ -178,6 +197,7 @@
     .contain-announcments {
         width: 400px;
         height: 200px;
+        /* outline: 3px solid red; */
     }
 
     .contain-announcments h3 {
