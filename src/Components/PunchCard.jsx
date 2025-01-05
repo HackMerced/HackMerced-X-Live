@@ -14,21 +14,21 @@ function PunchCard() {
               <div className="container-child-content">
                 <table id="punches" className="rounded-table no-color">
                   <tr>
-                    <td className="title">Breakfast</td>
+                    <td className="title-punch">Breakfast</td>
                     <td><div className="punch true"></div></td>
                     <td><div className="punch false"/></td>
                     <td><div className="punch false"/></td>
                     <td className="spacer"></td>
                   </tr>
                   <tr>
-                    <td className="title">Lunch</td>
+                    <td className="title-punch">Lunch</td>
                     <td><div className="punch true"></div></td>
                     <td><div className="punch true"></div></td>
                     <td><div className="punch false"/></td>
                     <td className="spacer"></td>
                   </tr>
                   <tr>
-                    <td className="title">Dinner</td>
+                    <td className="title-punch">Dinner</td>
                     <td><div className="punch true"></div></td>
                     <td><div className="punch true"></div></td>
                     <td><div className="punch false"/></td>
