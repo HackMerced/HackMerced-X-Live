@@ -12,8 +12,7 @@ import SignUp from './Components/SignUp'
 import Login from './Components/Login'
 
 function App() {
-
-  return (
+  return(
     <Router>
       <div className="App">
         <NavBar />
