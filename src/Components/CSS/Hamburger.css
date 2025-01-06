@@ -1,8 +1,16 @@
+.menu-buttons {
+    display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 880px) {
     * {
         margin: 0;
         box-sizing: 0;
         list-style-type: none;
+    }
+
+    .menu-buttons {
+        display: inherit;
     }
 
     nav {
@@ -16,7 +24,7 @@
 
     .burger-menu {
         height: 100%;
-        width: 3em;
+        width: 4em;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -27,7 +35,7 @@
     }
 
     .burger-bar {
-        width: 3em;
+        width: 4em;
         height: 0.5em;
         background-color: orange;
         float: right;
@@ -44,6 +52,14 @@
         position: absolute;
         padding-top: 50px;
         padding-bottom: 30px;
+    }
+
+    .burger-bar:nth-child(2){
+        background-color: #FF55FF;
+    }
+
+    .burger-bar:nth-child(3){
+        background-color: #AB58FF;
     }
 
     .hidden {
@@ -63,5 +79,22 @@
         padding: 0%;
         margin: 0%;
         margin-bottom: 30px;
+    }
+
+    .burger-bar.clicked:nth-child(1){
+        transform: rotate(45deg) translate(0.75em, 1.25em);
+    }
+
+    .burger-bar.clicked:nth-child(2){
+        transform: scale(0.1);
+    }
+
+    .burger-bar.clicked:nth-child(3){
+        transform: rotate(135deg) translate(-0.5em, 1em);
+        background-color: #FF55FF;
+    }
+
+    .burger-bar.unclicked {
+        transform: rotate(0) translate(0);
     }
 }

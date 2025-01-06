@@ -33,13 +33,15 @@ const Hamburger = () => {
             </nav>
     
             <div className={menu_class}>
-                <ul>
-                   <li><Link to="/prizes"><button className="button" id="about-us-button">Prizes</button></Link></li> 
-                   <li><Link to="/schedule"><button className="button" id="schedule-button">Schedule</button></Link></li> 
-                   <li><Link to="/punchcard"><button className="button" id="punch-card-button">PunchCard</button></Link></li>
-                   <li><Link to="/profile"><button className="button" id="profile-button-link">Profile Settings</button></Link></li> 
-                   <li><Link to="/login"><button className="button" id="log-out-button">Log Out</button></Link></li>  
-                </ul>
+                <div className="menu-buttons">
+                    <ul>
+                        <li><Link to="/prizes"><button className="button" id="about-us-button">Prizes</button></Link></li> 
+                        <li><Link to="/schedule"><button className="button" id="schedule-button">Schedule</button></Link></li> 
+                        <li><Link to="/punchcard"><button className="button" id="punch-card-button">PunchCard</button></Link></li>
+                        <li><Link to="/profile"><button className="button" id="profile-button-link">Profile Settings</button></Link></li> 
+                        <li><Link to="/login"><button className="button" id="log-out-button">Log Out</button></Link></li>  
+                    </ul>
+                </div>
             </div>
         </div>
     )
