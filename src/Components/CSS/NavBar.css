@@ -50,37 +50,25 @@
 
 @media screen and (min-width: 300px) and (max-width: 880px) {
 
-    .nav-items {
-        display: grid;  
-        grid-template-columns: 8rem 8rem 8rem;  
-        grid-template-rows: 4rem 4rem;  
-        justify-content: center;
-        align-items: center;
-        padding-right: 0;
+    .nav-items .button{
+        display: none;
     }
 
-    .nav-items .button{
-        width: 8rem;
-        height: 4rem;
-    }
-    /* Specific styling for the last "Profile" button to go on its own row */
     #profile-button {
-        grid-area: 1 / 4 / 2 / 5;
-        position: relative;
-        float:right;
+        display: none;
+    }
+
+    .dropdown-menu {
+        display: none;
     }
 
     .navflair{
-        grid-area: 2 / 2 / 4 / 5;
-        transform: translateY(-0.6rem);
-        height: 5.2rem;
+        display: none;
     }
     .navbarLeft{
         display: none;
     }
     .navbarRight{
-        height:4rem;
-        transform: translate(-5.7rem, -0.6rem);
-        grid-area: 2 / 3 / 4 / 5;
+        display: none;
     }
 }

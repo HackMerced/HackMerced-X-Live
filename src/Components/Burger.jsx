@@ -1,7 +1,9 @@
 import React, {useState} from "react";
+import { Link } from 'react-router-dom';
+
 import './CSS/Hamburger.css';
 
-const Navbar = () => {
+const Hamburger = () => {
 
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
@@ -17,21 +19,30 @@ const Navbar = () => {
             setBurgerClass("burger-bar unclicked")
             setMenuClass("menu hidden")
         }
+        setIsMenuClicked(!isMenuClicked)
     }
 
     return(
-        <div>
+        <div style={{width: '100%', height: '100%'}}>
             <nav>
-                <div className="burger-menu">
-                    <div className={burger_class} onClick={updateMenu}></div>
-                    <div className={burger_class} onClick={updateMenu}></div>
-                    <div className={burger_class} onClick={updateMenu}></div>
+                <div className="burger-menu" onClick={updateMenu}>
+                    <div className={burger_class} ></div>
+                    <div className={burger_class} ></div>
+                    <div className={burger_class} ></div>
                 </div>
             </nav>
     
-            <div className={menu_class}></div>
+            <div className={menu_class}>
+                <ul>
+                   <li><Link to="/prizes"><button className="button" id="about-us-button">Prizes</button></Link></li> 
+                   <li><Link to="/schedule"><button className="button" id="schedule-button">Schedule</button></Link></li> 
+                   <li><Link to="/punchcard"><button className="button" id="punch-card-button">PunchCard</button></Link></li>
+                   <li><Link to="/profile"><button className="button" id="profile-button-link">Profile Settings</button></Link></li> 
+                   <li><Link to="/login"><button className="button" id="log-out-button">Log Out</button></Link></li>  
+                </ul>
+            </div>
         </div>
     )
 }
 
-export default Hamburger
+export default Hamburger;
