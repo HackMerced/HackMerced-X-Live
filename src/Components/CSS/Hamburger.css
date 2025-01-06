@@ -4,8 +4,8 @@
 
 @media screen and (min-width: 300px) and (max-width: 880px) {
     * {
-        margin: 0;
-        box-sizing: 0;
+        /* margin: 0; */
+        /* box-sizing: 0; */
         list-style-type: none;
     }
 
