@@ -1,12 +1,13 @@
 import React from 'react';
 import './CSS/NavBar.css';
 import Dropdown from './dropdown';
-
+import Hamburger from './Burger';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
     return (
       <div className="NavBar">
+        <Hamburger />
         <ul className="nav-items">
           <img src="/navAssets/navBarLeftPart.svg" className="navbarLeft"/>
           <li><Link to="/"><button className="button" id="home-button">Home</button></Link></li>
@@ -15,8 +16,7 @@ function NavBar() {
           <li><Link to="/punchcard"><button className="button" id="punch-card-button">PunchCard</button></Link></li>
           <img src="/navAssets/navflair.svg" className="navflair"/>
           <Dropdown />
-{/* 
-          <li><button className="button" id="profile-button">Profile</button></li> */}
+          {/* <li><button className="button" id="profile-button">Profile</button></li> */}
           <img src="/navAssets/navbarRightPart.svg" className="navbarRight"/>
           
         </ul>
