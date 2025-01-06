@@ -79,6 +79,7 @@
         padding: 0%;
         margin: 0%;
         margin-bottom: 30px;
+        color: white;
     }
 
     .burger-bar.clicked:nth-child(1){
