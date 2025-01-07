@@ -1,0 +1,101 @@
+.menu-buttons {
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 880px) {
+    * {
+        /* margin: 0; */
+        /* box-sizing: 0; */
+        list-style-type: none;
+    }
+
+    .menu-buttons {
+        display: inherit;
+    }
+
+    nav {
+        width: 100%;
+        height: 3em;
+        display: flex;
+        padding: 1em;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+
+    .burger-menu {
+        height: 100%;
+        width: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 1;
+        margin-right: 40px;
+        margin-top: 13px;
+    }
+
+    .burger-bar {
+        width: 4em;
+        height: 0.5em;
+        background-color: orange;
+        float: right;
+        position: relative;
+    }
+
+    .menu {
+        background: linear-gradient(180deg, #663399, #422162);
+        width: 100%;
+        height:fit-content;
+        background-color: black;
+        top: 0;
+        z-index: 0 !important;
+        position: absolute;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .burger-bar:nth-child(2){
+        background-color: #FF55FF;
+    }
+
+    .burger-bar:nth-child(3){
+        background-color: #AB58FF;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .visible {
+        display: inherit;
+    }
+
+    .button {
+        background-color: transparent;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Rajdhani', 'sans-serif';
+        padding: 0%;
+        margin: 0%;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .burger-bar.clicked:nth-child(1){
+        transform: rotate(45deg) translate(0.75em, 1.25em);
+    }
+
+    .burger-bar.clicked:nth-child(2){
+        transform: scale(0.1);
+    }
+
+    .burger-bar.clicked:nth-child(3){
+        transform: rotate(135deg) translate(-0.5em, 1em);
+        background-color: #FF55FF;
+    }
+
+    .burger-bar.unclicked {
+        transform: rotate(0) translate(0);
+    }
+}
