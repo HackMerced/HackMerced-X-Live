@@ -1,91 +1,170 @@
-.prizes-points {
-    font-size: 6rem;
-    font-weight: bold;
-    background-image: url("/prizeAssets/counter.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    user-select: none;
-    mix-blend-mode: hard-light;
-}
-.prizes-points > p { padding:0; margin:0; }
-
-.prizes-listingcontainer {
-    /* width:80vw; */
-
-}
-
-.prizes-header {
-    background-image: url("/prizeAssets/header.png");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:60rem;
-    user-select:none;
-    margin-top:3rem;
-    font-size:1.5rem;
-}
-.prizes-header > div {
-    display:inline-block;
-    margin:0 2.9rem;
-    font-weight: 800;
-    /* border: red solid 3px; */
-}
-
-.prizes-table {
-    width:100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
 }
 
 .prize {
-    height:8rem;
-    font-size: 1.5rem;
-    background-image:url("prizeAssets/row.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:60rem;
-    margin: 0rem 0rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  background-image: url("prizeAssets/row.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2%;
+  width: 100%;
+  padding: 3% 0;
 }
-.prize:nth-child(even){
-    filter: hue-rotate(10deg);
+
+.prizes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
-.prize > img {
+
+.prizes-points {
+  font-size: 6rem;
+  font-weight: bold;
+  background-image: url("/prizeAssets/counter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+  mix-blend-mode: hard-light;
+  margin: 5% 0;
+  width: 40%;
+}
+
+.prizes-header {
+  display: flex;
+  justify-content: center;
+  background-image: url("/prizeAssets/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  user-select: none;
+  font-size: 2rem;
+}
+
+.prizes-header-title {
+  display: inline-block;
+  width: 20%;
+  font-weight: 800;
+}
+
+.prizes-table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.prize:nth-child(even) {
+  filter: hue-rotate(10deg);
+}
+
+/* .prize > img {
     position:absolute;
     height:5rem;
     transform:translateX(-80%);
+} */
+
+/* .prizes-claim {
+    margin:0rem 3rem;
+} */
+
+/* .prize-text {
+    margin-top:2rem;
+} */
+
+.prize-text > div {
+  display: inline-block;
+  width: 20%;
 }
 
-.prizes-claim {
-    /* margin:0rem 3rem; */
-}
-.prize-text {
-    position:absolute;
-    margin-top:2rem;
-    transform:translateX(40%);
-    /* margin-left:100%; */
-}
-.prize-text > div {
-    display:inline-block;
-    margin:0 1rem;
-}
 .prize-name {
-    width:8rem;
-    font-weight: 800;
+  font-weight: 800;
 }
-.prize-desc {
-    width:8rem;
-    font-weight: 500;
-}
-.prize-cost {
-    width:8rem;
-    font-weight: 500;
-}
+
+.prize-desc,
+.prize-cost,
 .prize-quantity {
-    width:8rem;
-    font-weight: 500;
+  font-weight: 500;
 }
 
 /* man builds worlds least responsive page; asked to leave project */
 
 /* Viewports */
 
-@media screen and (min-width: 300px) and (max-width: 880px) {
+/* Extra extra small devices (very small phones, 480px and down) */
+@media (max-width: 480px) {
+    .prizes-points {
+        font-size: 1.5rem;
+      }
+      .prizes-header {
+        font-size: 0.8rem;
+      }
+      .prize {
+        font-size: 0.7rem;
+      }
+      .nav-items {
+        width: 2%;
+      }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 481px) and (max-width: 600px) {
+  .prizes-points {
+    font-size: 2rem;
+  }
+  .prizes-header {
+    font-size: 1rem;
+  }
+  .prize {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .prizes-points {
+    font-size: 3rem;
+  }
+  .prizes-header {
+    font-size: 1.5rem;
+  }
+  .prize {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .prizes-points {
+    font-size: 4rem;
+  }
+  .prizes-header {
+    font-size: 1.7rem;
+  }
+  .prize {
+    font-size: 1.7rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 993px to 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .prizes-points {
+    font-size: 5rem;
+  }
+  .prizes-header {
+    font-size: 2rem;
+  }
+  .prize {
+    font-size: 2rem;
+  }
 }
