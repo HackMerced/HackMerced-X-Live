@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
-  overflow-y: auto;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
 }
 
 .prize {
@@ -111,6 +111,9 @@
       }
       .prize {
         font-size: 0.7rem;
+      }
+      .nav-items {
+        width: 2%;
       }
 }
 
