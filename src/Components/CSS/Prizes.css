@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-image: url("prizeAssets/row.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +49,7 @@
   background-size: cover;
   width: 90%;
   user-select: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .prizes-header-title {
@@ -104,8 +104,7 @@
 /* Extra extra small devices (very small phones, 480px and down) */
 @media (max-width: 480px) {
     .prizes-points {
-        font-size: 2rem;
-        width: 60%;
+        font-size: 1.5rem;
       }
       .prizes-header {
         font-size: 0.8rem;
@@ -119,7 +118,6 @@
 @media (min-width: 481px) and (max-width: 600px) {
   .prizes-points {
     font-size: 2rem;
-    width: 60%;
   }
   .prizes-header {
     font-size: 1rem;
@@ -132,8 +130,13 @@
 /* Small devices (portrait tablets and large phones, 600px to 768px) */
 @media (min-width: 601px) and (max-width: 768px) {
   .prizes-points {
-    font-size: 4rem;
-    width: 60%;
+    font-size: 3rem;
+  }
+  .prizes-header {
+    font-size: 1.5rem;
+  }
+  .prize {
+    font-size: 1.5rem;
   }
 }
 
@@ -141,7 +144,12 @@
 @media (min-width: 769px) and (max-width: 992px) {
   .prizes-points {
     font-size: 4rem;
-    width: 50%;
+  }
+  .prizes-header {
+    font-size: 1.7rem;
+  }
+  .prize {
+    font-size: 1.7rem;
   }
 }
 
@@ -149,6 +157,11 @@
 @media (min-width: 993px) and (max-width: 1200px) {
   .prizes-points {
     font-size: 5rem;
-    width: 50%;
+  }
+  .prizes-header {
+    font-size: 2rem;
+  }
+  .prize {
+    font-size: 2rem;
   }
 }
