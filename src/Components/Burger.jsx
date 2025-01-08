@@ -41,12 +41,12 @@ const Hamburger = () => {
             <div className={menu_class}>
                 <div className="menu-buttons">
                     <ul>
-                        <li><Link to="/"><button className="button" id="about-us-button" onClick={closeMenu}>Home</button></Link></li> 
-                        <li><Link to="/prizes"><button className="button" id="about-us-button" onClick={closeMenu}>Prizes</button></Link></li> 
-                        <li><Link to="/schedule"><button className="button" id="schedule-button" onClick={closeMenu}>Schedule</button></Link></li> 
-                        <li><Link to="/punchcard"><button className="button" id="punch-card-button" onClick={closeMenu}>PunchCard</button></Link></li>
-                        <li><Link to="/profile"><button className="button" id="profile-button-link" onClick={closeMenu}>Profile Settings</button></Link></li> 
-                        <li><Link to="/login"><button className="button" id="log-out-button" onClick={closeMenu}>Log Out</button></Link></li>  
+                        <li><Link to="/"><button className="burger-button" id="about-us-button" onClick={closeMenu}>Home</button></Link></li> 
+                        <li><Link to="/prizes"><button className="burger-button" id="about-us-button" onClick={closeMenu}>Prizes</button></Link></li> 
+                        <li><Link to="/schedule"><button className="burger-button" id="schedule-button" onClick={closeMenu}>Schedule</button></Link></li> 
+                        <li><Link to="/punchcard"><button className="burger-button" id="punch-card-button" onClick={closeMenu}>PunchCard</button></Link></li>
+                        <li><Link to="/profile"><button className="burger-button" id="profile-button-link" onClick={closeMenu}>Profile Settings</button></Link></li> 
+                        <li><Link to="/login"><button className="burger-button" id="log-out-button" onClick={closeMenu}>Log Out</button></Link></li>  
                     </ul>
                 </div>
             </div>
