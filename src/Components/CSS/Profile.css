@@ -1,4 +1,71 @@
 
+.profile {
+    background-image: url('../public/authAssets/authPanel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40% 70%; 
+    /* width: 100%; */
+
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-image: url('../public/authAssets/authPanel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20% 100%; /* Make it wider and less tall */
+    width: 100%;
+    height: 20vh; /* Full viewport height */
+
+
+}
+
+.info {
+    background-image: url('../public/authAssets/authPanel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; /* Make it wider and less tall */
+    /* width: 100%; */
+    /* height: 30vh;  */
+    
+}
+
+
+.voucher {
+    background-image: url('../public/authAssets/authPanel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 100%; /* Make it wider and less tall */
+    /* width: 100%; */
+    /* height: 30vh;  */
+}
+
+/* Add this to style any child elements, e.g., text or buttons */
+.profile-content {
+    padding: 1em; /* Add padding around the content */
+    z-index: 1; 
+}
+
+
+
+.info input, .voucher input {
+    /* width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; */
+    background-color: #C0FCFF;
+    padding :.5em;
+    font-weight: 1000;
+    width :20%;
+    color :#422162;
+    font-size: 1em;
+
+  }
 
 /* Viewports */
 
