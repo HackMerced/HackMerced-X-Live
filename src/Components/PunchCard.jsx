@@ -6,7 +6,7 @@ function PunchCard() {
     return (
       <div className="PunchCard">
         <div className='punch-header'>
-          <h1>HackMerced X PunchCard Page</h1>
+          {/* <h1>Punch Card</h1> */}
         </div>
         <div className='punch-body'>
           <div className='container-parent'>

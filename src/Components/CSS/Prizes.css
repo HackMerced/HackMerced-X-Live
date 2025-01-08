@@ -97,6 +97,21 @@
   font-weight: 500;
 }
 
+.prizes-claim{
+  background-color: #FFA052;
+    color :#422162 ;
+    font-weight: 1000;
+    border-radius: 0%;
+    clip-path: polygon(
+        0 20%,
+        10% 0,
+        100% 0,
+        100% 80%,
+        90% 100%,
+        0% 100%
+    );
+}
+
 /* man builds worlds least responsive page; asked to leave project */
 
 /* Viewports */

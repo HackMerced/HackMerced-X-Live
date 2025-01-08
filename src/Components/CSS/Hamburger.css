@@ -52,6 +52,7 @@
         position: absolute;
         padding-top: 50px;
         padding-bottom: 30px;
+        outline: red solid 3px;
     }
 
     .burger-bar:nth-child(2){
