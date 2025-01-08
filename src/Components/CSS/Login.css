@@ -13,15 +13,15 @@
     /* margin-top : 10vh; */
     /* background-color: #422162;
      */
-    background-image: url('/authAssets/authPanel.png');
+    /* background-image: url('/authAssets/authPanel.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; /* Adjust the image size */
+    background-size: contain; */
 
+    position: relative;
+    outline: red solid 3px;
 
 }
-
-
 
 .title {
     color :#FF55FF;
@@ -29,25 +29,22 @@
 }
 
 
-form {
+.login-container form{
     display:flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     gap: 1em;
 }
 
-
-input {
+.login-form input {
     background-color: #C0FCFF;
     padding :.5em;
     color :#422162;
     font-weight: 1000;
     font-size: 2em;
-    width :80%;
-
+    width: 80%;
     /* font-family: 'Rajdhani'; */
-
 }
 
 button {

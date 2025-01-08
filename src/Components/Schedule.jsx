@@ -24,7 +24,7 @@ function Schedule() {
             <p className='contents'>learn the basics of firebase.  Implement login, logout, and sign up capabilities.  Create a live update comment section using firestore.  All experiance levels welcome!</p>
             <p className='capacity'><b>Capacity:</b> 10/20</p>
             <p className='reward'><b>Reward:</b> 100 points</p>
-            <img src="/scheduleAssets/maps/COB2130.png" className='map' alt='COB2 130'/>
+            <p><img src="/scheduleAssets/maps/COB2130.png" className='map' alt='COB2 130'/></p>
           </div>
         </div>
 

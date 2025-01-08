@@ -22,8 +22,8 @@ function Dropdown() {
 
   return (
     <div className="dropdown">
-      <button className="button" id="profile-button" onClick={toggleDropdown}>
-        <center><img src="/navAssets/profileIcon.svg"></img></center>
+      <button className="nav-profile-button" id="profile-button" onClick={toggleDropdown}>
+        <center><img src="/navAssets/profile-icon-default.png" className="nav-profile-pic"></img></center>
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
