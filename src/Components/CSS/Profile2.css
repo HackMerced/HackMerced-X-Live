@@ -272,8 +272,22 @@
 }
 
 /* Viewports */
+@media screen and (min-width: 380px) and (max-width: 880px) {
+    .points-title{
+        top: 1rem;
+        font-size: 2em;
+    }
+    .points-value{
+        top: 4rem;
+        font-size: 2em;
+        /* outline: red solid 3px; */
+    }
 
-@media screen and (min-width: 300px) and (max-width: 880px) {
+    .voucher-container{
+        margin-top: -30vw;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 380px) {
 
     .points-container{
         /* outline: blue 3px solid; */
