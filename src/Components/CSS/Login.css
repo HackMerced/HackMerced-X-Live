@@ -13,10 +13,10 @@
     /* margin-top : 10vh; */
     /* background-color: #422162;
      */
-    background-image: url('/authAssets/authPanel.png');
+    /* background-image: url('/authAssets/authPanel.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; /* Adjust the image size */
+    background-size: contain; */
 
     position: relative;
     outline: red solid 3px;

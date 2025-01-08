@@ -15,7 +15,7 @@ function Login() {
               <input type="email" name="" id="email" placeholder='Email'/>
               <input type="password" name="" id="pw" placeholder='Password'/>
               <div className="login-button-stack">
-                <button type="submit" id='login' className="login-button">Login</button>
+                <button type="submit" id='login' className="login-button" onClick={() => navigate('/')}>Login</button>
                 <button type="button" id='signup' className="login-button" onClick={() => navigate('/signup')}>New User?</button>
               </div>
             </form>

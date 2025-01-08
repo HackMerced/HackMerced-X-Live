@@ -112,6 +112,11 @@
     );
 }
 
+.prizes-claim:hover {
+  background-color: #FF873E; 
+}
+
+
 /* man builds worlds least responsive page; asked to leave project */
 
 /* Viewports */

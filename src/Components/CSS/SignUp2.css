@@ -1,0 +1,226 @@
+.signup-container{
+    /* outline: green solid 3px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(1.2em, 1.2vw, 3vw);
+}
+
+
+.signup-panel{
+    display: block;
+    position: relative;
+    width: 40rem;
+    /* outline: 3px red solid; */
+    z-index: -1;
+}
+.signup-panel-mobile{
+    display: none;
+}
+
+.signup-title{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    /* outline: blue 3px solid; */
+    width: 100%;
+}
+
+.form {
+    position: absolute;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; 
+    /* Adjust to fit your design */
+    align-items: center;
+}
+.form-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem; /* Space between the sections */
+    /* outline: red solid 3px; */
+}
+
+.credentials, .profile {
+    flex: 1; /* Take equal space */
+}
+  
+.credentials input, .profile input {
+  /* width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px; */
+  margin-bottom: 0.4rem;
+  border: #422162 solid 3px;
+  border-radius: 10px;
+  background-color: #C0FCFF;
+  padding :.5em;
+  font-weight: 1000;
+  width :80%;
+  color :#663399;
+  font-size: 1em;
+}
+.form-sections input::placeholder{
+    /* color: #422162; */
+    font-weight: 700;
+}
+
+
+.file-upload-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 1rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    height: 3rem;
+}
+
+.upload {
+    display: none; 
+}
+
+.profile-preview {
+    display: block;
+    width: 6rem; 
+    height: 6rem; 
+    border-radius: 50%; 
+    border: 2px solid #FFA052; 
+}
+  
+
+.upload-label {
+    display: inline-block;
+    background-color: #FFA052;
+    color: #422162;
+    font-weight: 1000;
+    padding: 0.5rem 1rem;
+    font-size: 1.2em;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    clip-path: polygon(
+        0 20%,
+        10% 0,
+        100% 0,
+        100% 85%,
+        90% 100%,
+        0% 100%
+    );
+    transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+    background-color: #FF873E; 
+}
+
+
+.signup-button{
+    background-color: #FFA052;
+    color :#422162 ;
+    font-weight: 1000;
+    border-radius: 0%;
+    font-size: 1.2em;
+    clip-path: polygon(
+        0 20%,
+        10% 0,
+        100% 0,
+        100% 80%,
+        90% 100%,
+        0% 100%
+    );
+}
+
+.signup-button:hover {
+    background-color: #FF873E; 
+}
+
+/* Viewports */
+
+@media screen and (min-width: 300px) and (max-width: 880px) {
+
+    .signup-container{
+        height: 52vh;
+        font-size:0.8em;
+        font-size: clamp(0.01em, 3vw, 100rem);
+    }
+
+    .signup-panel-mobile{
+        display: block;
+        position: relative;
+        width: 100%;
+        /* outline: 3px red solid; */
+        z-index: -1;
+    }
+    .signup-panel{
+        display: none;
+    }
+    .signup-title{
+        top: 1rem;
+        /* outline: red solid 3px; */
+        width: 100%;
+        font-size: clamp(1.4rem, 3vw, 5em);
+    }
+
+    .form {
+        top: 4rem;
+        width: 80%;
+        left: 45%;
+        transform: translate(-50%);
+        /* Adjust to fit your design */
+        align-items: center;
+    }
+    .form-sections {
+        gap: 3em;  /*gap between the columns*/
+    }
+    .credentials input, .profile input {
+        margin-bottom: 0.2rem;
+        border: #422162 solid 3px;
+        border-radius: 10px;
+        background-color: #C0FCFF;
+        padding: 0.4em;
+        font-weight: 1000;
+        width: 110%;
+        color :#663399;
+        font-size: 1em;
+    }
+
+    .file-upload-container{
+        left: 1rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        gap: 1rem;
+        height: 3rem;
+        /* outline: 3px green solid; */
+    }
+    .upload-label {
+        /* border: red solid 5px; */
+        font-weight: 1000;
+        padding: 0rem 0.5rem;
+        font-size: 0.8em;
+    }
+    .profile-preview {
+        display: block;
+        width: 3rem; 
+        height: 3rem; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        border: 2px solid #FFA052; 
+    }
+    .signup-button{
+        margin-top: 0.5rem;
+    }
+
+    
+
+}
