@@ -118,7 +118,15 @@ h1{
         padding: 0;
         height: auto;
         visibility: initial;
-        clip-path: none;
+        /* clip-path: none; */
+        clip-path: polygon(
+          0 8%,
+          8% 0,
+          100% 0,
+          100% 90%,
+          90% 100%,
+          0% 100%
+      );
     }
     .container-child-content{
         width: unset;
