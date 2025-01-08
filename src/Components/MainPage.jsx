@@ -20,7 +20,7 @@ function MainPage() {
           <div className="main-page-announcment-panel">
             <img src="/mainAssets/Prize-Screen.svg" alt="Announcement Panel Background" className="panel-background announcment-desktop" />
             {/* <img src="/mainAssets/Announcment-Mobile-Ver.svg" alt="Announcement Panel Background" className="panel-background announcment-mobile" /> */}
-            <img src="/mainAssets/longer-mobile-SchedulePanel.svg" alt="Announcement Panel Background" className="panel-background announcment-mobile" />
+            <img src="/mainAssets/SchedulePanelMobile.svg" alt="Announcement Panel Background" className="panel-background announcment-mobile" />
             
             <div className="panel-text annountment-panel-text">
                 <h1>ANNOUNCMENTS</h1>
