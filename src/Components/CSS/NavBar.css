@@ -33,6 +33,8 @@
 .dropdown-menu{
     padding-left: 0;
     position: absolute;
+    right: 5rem;
+    top: 4.5rem;
 }
 
 .nav-items .button{
