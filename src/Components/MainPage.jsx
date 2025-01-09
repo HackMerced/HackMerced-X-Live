@@ -8,7 +8,9 @@ function MainPage() {
         <div className="main-page-contian-panels">
           <div className="main-page-countdown-panel">
               {/* <img src="/mainAssets/Countdown-Background.svg" alt="CountDown Panel Background" className="panel-background countdown-background" /> */}
-              <img src="/mainAssets/ClockPanel.png" alt="CountDown Panel Background" className="panel-background countdown-background" />
+              {/* <img src="/mainAssets/ClockPanel.png" alt="CountDown Panel Background" className="panel-background countdown-background" /> */}
+              <img src="/mainAssets/PurpleClockPanel.png" alt="CountDown Panel Background" className="panel-background countdown-background" />
+
               <img src="/mainAssets/purple.svg" alt="Purple Panel Background" className="purlple-medium-panel" />
               <img src="/mainAssets/darkpurple.svg" alt="Pink Panel Background" className="darkpurlple-small-panel" />
               <div className="panel-text">
