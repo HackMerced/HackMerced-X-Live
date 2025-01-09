@@ -28,32 +28,49 @@ function MainPage() {
             <div className="panel-text annountment-panel-text">
                 <h1>ANNOUNCMENTS</h1>
                 <div className="contain-announcments">
-                  <h3>Snacks available at COB2 105 please come before all of the food is gone</h3>
-                  <h3>Snacks available at COB2 105Snacks available at COB2 105 please come before all of the food is goneSnacks available at COB2 105 please come before all of the food is gone</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
-                  <h3>Snacks available at COB2 105</h3>
+                  <section className="scroll-reveal">
+                    <h3><span>Snacks available at COB2 105 please come before all of the food is gone</span></h3>
+                    <h3><span>Snacks available at COB2 105Snacks available at COB2 105 please come before all of the food is gone please come before all of the food is gone</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105</span></h3>
+                    <h3><span>Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105Snacks available at COB2 105</span></h3>
+
+                    <h3><span>.</span></h3>
+                    <h3><span>.</span></h3> {/* these are here to get the color to spread all the way */}
+                  </section>
                 </div>
             </div>
           </div>
