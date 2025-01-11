@@ -10,12 +10,12 @@ function Schedule() {
       <div className="Schedule">
         
         <div className="hackmerced-tower">
-          <img src="/scheduleAssets/HackMercedTower.svg" className='hackmerced-tower-img' alt='HackMerced Tower'/>
+          <img src="/scheduleAssets/HackMercedTower.png" className='hackmerced-tower-img' alt='HackMerced Tower'/>
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Event Title</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -29,8 +29,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>I Figma'd it out! Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -44,8 +44,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>FireBase WorkShop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -59,8 +59,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Chat GPT From Scratch Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -74,8 +74,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Blender Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -89,8 +89,8 @@ function Schedule() {
         </div>
         
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Blender Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -104,8 +104,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Blender Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -119,8 +119,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Blender Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -134,8 +134,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Blender Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>
@@ -149,8 +149,8 @@ function Schedule() {
         </div>
 
         <div className='event-card'>
-          <img src="/scheduleAssets/SmallSchedulePanel.svg" className='small-schedule-panel' alt='Schedule Panel'/>
-          <img src="/scheduleAssets/SchedulePanel.svg" className='schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SmallSchedulePanel.png" className='small-schedule-panel' alt='Schedule Panel'/>
+          <img src="/scheduleAssets/SchedulePanel.png" className='schedule-panel' alt='Schedule Panel'/>
           <div className='event-content'>
             <p className='event-title'><b>Blender Workshop</b></p>
             <p className='start-time'><b>Start:</b> 10:00am</p>

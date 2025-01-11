@@ -11,8 +11,8 @@ function MainPage() {
               {/* <img src="/mainAssets/ClockPanel.png" alt="CountDown Panel Background" className="panel-background countdown-background" /> */}
               <img src="/mainAssets/PurpleClockPanel.png" alt="CountDown Panel Background" className="panel-background countdown-background" />
 
-              <img src="/mainAssets/purple.svg" alt="Purple Panel Background" className="purlple-medium-panel" />
-              <img src="/mainAssets/darkpurple.svg" alt="Pink Panel Background" className="darkpurlple-small-panel" />
+              <img src="/mainAssets/purple.png" alt="Purple Panel Background" className="purlple-medium-panel" />
+              <img src="/mainAssets/darkpurple.png" alt="Pink Panel Background" className="darkpurlple-small-panel" />
               <div className="panel-text">
                 <h2>COMPLETE HACKING IN:</h2>
                 <h1 className='countdown-timer'>00:00:00</h1>
@@ -79,7 +79,7 @@ function MainPage() {
 
         </div>
 
-        <img src="/mainAssets/HackMerced-Tower.svg" alt="HackMerced Tower" className="MainPage-hackmerced-tower" />
+        <img src="/mainAssets/HackMerced-Tower.png" alt="HackMerced Tower" className="MainPage-hackmerced-tower" />
         
       </div>
     );

@@ -30,7 +30,7 @@
 .prizes-points {
   font-size: 6rem;
   font-weight: bold;
-  background-image: url("/prizeAssets/counter.svg");
+  background-image: url("/prizeAssets/Score.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

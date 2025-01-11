@@ -173,7 +173,8 @@
     background-clip: text;
     background-repeat: no-repeat;
     background-size: 0% 100%;
-    background-image: linear-gradient(90deg, #FF55FF, #FFA052);
+    /* background-image: linear-gradient(90deg, #FF55FF, #FFA052); */
+    background-image: linear-gradient(90deg, white, white);
     animation: scroll-reveal linear forwards;
     animation-timeline: view();
     /* animation-range-start: cover 30vh;
@@ -290,7 +291,8 @@
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0% 100%;
-        background-image: linear-gradient(90deg, #FF55FF, #FFA052);
+        /* background-image: linear-gradient(90deg, #FF55FF, #FFA052); */
+        background-image: linear-gradient(90deg, white, white);
         animation: scroll-reveal linear forwards;
         animation-timeline: view();
         animation-range-start: contain 10%; 
