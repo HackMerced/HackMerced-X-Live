@@ -55,6 +55,24 @@ Live page for HackMerced X in collaboration with Badger
         - write down which browsers you tested \(aka test SAFARI >:\(
         - add screenshots of what you impelemented
 
+#Schema Notes
+Refering to initial schema on figma page
+
+users cna simply upload profile pictures.
+
+Will need to add to user school and major
+
+notice in schema is announcments in our code
+
+prizes will not have imgs.
 
 
 
+Bonus features that we can try to include:
+
+1. maybe user cna uplaod resume to their account
+2. im not sold on the main landing page design
+3. schedule page if you scroll down al lthe way in desktop theres like an awkward amount of space casue i made the elemtn positions a bit wonky nad confusing. mobiles fine though
+4. my text scroll gradient in the main page annoucment panel does not work on safari.
+5. the auth can be more character buildingy refer ot figma for detaisl
+6. 3d tower for landing page
