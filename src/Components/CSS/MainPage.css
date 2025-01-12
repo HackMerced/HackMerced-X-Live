@@ -248,27 +248,25 @@
     .main-page-contian-panels {
         padding: 50px 1rem 50px 1rem;
     }
-
-    .MainPage-hackmerced-tower {
-       
-    }
     .MainPage-hackmerced-tower {
         position: absolute;
         /* border: purple 3px solid; */
         top: 100rem;
         left: -2rem;
         animation: pop-up .4s ease-in-out forwards;
-        z-index: -3;
+        width: 6rem;
     }
+   
+    
     @keyframes pop-up {
         0% {
             top: 30rem;
         }
         100% {
-            top: -27rem;
-            left: -11rem;
-            z-index: -3;
-            opacity: 50%;
+            /* top: -27rem;
+            left: -11rem; */
+            top: -3.6rem;
+            left: -1rem;
         }
     }
 

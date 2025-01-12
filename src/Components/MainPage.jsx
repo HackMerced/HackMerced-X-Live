@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CSS/MainPage.css'
 
 function MainPage() {
+    const [expanded, setExpanded] = useState(false);
+
+    // Toggle the width expansion on click
+    const handleClick = () => {
+      setExpanded(!expanded);
+    };
     return (
       <div className="MainPage">
 
@@ -79,8 +85,12 @@ function MainPage() {
 
         </div>
 
-        <img src="/mainAssets/HackMerced-Tower.png" alt="HackMerced Tower" className="MainPage-hackmerced-tower" />
-        
+        <img
+          src="/mainAssets/HackMerced-Tower.png"
+          alt="HackMerced Tower"
+          className={`MainPage-hackmerced-tower ${expanded ? 'expanded' : ''}`}
+          onClick={handleClick}
+        />
       </div>
     );
   }
