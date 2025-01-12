@@ -250,7 +250,7 @@
     }
     .MainPage-hackmerced-tower {
         position: absolute;
-        /* border: purple 3px solid; */
+        border: purple 3px solid;
         top: 100rem;
         left: -2rem;
         animation: pop-up .4s ease-in-out forwards;
@@ -297,9 +297,6 @@
         animation-range-end: contain 20%;   
     }
     
-    .contain-announcments h3 {
-       
-    }
 }
 
 @media (max-width: 880px) {
