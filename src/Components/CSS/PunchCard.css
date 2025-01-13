@@ -192,3 +192,14 @@ h1{
       visibility: hidden;
     }
 }
+
+@media screen and (max-width: 375px) {
+  #punches td{
+    /* outline: red solid 3px; */
+    padding: 2%;
+  }
+  #punches .title-punch{
+    /* outline: green solid 3px; */
+    font-size: 60%;
+  }
+}
