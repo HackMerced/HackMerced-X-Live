@@ -1,7 +1,7 @@
 import React from "react";
 import "./CSS/Prizes.css";
 import PrizeListing from "./PrizeListing";
-import NavBar from './NavBar';
+import NavBar from "./NavBar";
 
 function Prizes() {
   let points = 129;
