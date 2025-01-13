@@ -1,6 +1,7 @@
 import React from "react";
 import "./CSS/Prizes.css";
 import PrizeListing from "./PrizeListing";
+import NavBar from './NavBar';
 
 function Prizes() {
   let points = 129;
@@ -51,6 +52,8 @@ function Prizes() {
     },
   ];
   return (
+    <>
+    <NavBar />
     <div className="prizes-container">
       <div className="prizes-points" align="center">
         Points: {points}
@@ -78,6 +81,7 @@ function Prizes() {
         })}
       </div>
     </div>
+    </>
   );
 }
 

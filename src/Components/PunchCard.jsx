@@ -1,9 +1,11 @@
 import React from 'react';
 import './CSS/PunchCard.css'
-
+import NavBar from './NavBar';
 
 function PunchCard() {
     return (
+      <>
+      <NavBar />
       <div className="PunchCard">
         <div className='punch-header'>
           {/* <h1>Punch Card</h1> */}
@@ -46,6 +48,7 @@ function PunchCard() {
         </div>
        
       </div>
+      </>
     );
   }
   

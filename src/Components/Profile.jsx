@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './CSS/Profile2.css'
+import NavBar from './NavBar';
 
 function Profile() {
   const [profilePic, setProfilePic] = useState(null);
@@ -33,11 +34,13 @@ function Profile() {
   };
 
   return (
+    <>
+    <NavBar />
     <div className="profile-div">
       
       <div className="profile-title-container-wrapper">
         <div className="profile-title-container">
-          <h1>Profile Title</h1>
+          <h1>Hello, NAME</h1>
         </div>
       </div>
 
@@ -59,7 +62,7 @@ function Profile() {
             <div className="credentials">
               <input type="text" placeholder="First Name" />
               <input type="text" placeholder="Last Name" />
-              <input type="text" placeholder="Badge ID Code" />
+              {/* <input type="text" placeholder="Badge ID Code" /> */}
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
             </div>
@@ -99,6 +102,7 @@ function Profile() {
       </div>
 
     </div>
+    </>
   );
 }
 

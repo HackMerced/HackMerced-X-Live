@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './CSS/MainPage.css'
+import NavBar from './NavBar';
 
 function MainPage() {
     const [expanded, setExpanded] = useState(false);
@@ -9,6 +10,8 @@ function MainPage() {
       setExpanded(!expanded);
     };
     return (
+      <>
+      <NavBar />
       <div className="MainPage">
 
         <div className="main-page-contian-panels">
@@ -92,6 +95,7 @@ function MainPage() {
           onClick={handleClick}
         />
       </div>
+      </>
     );
   }
   

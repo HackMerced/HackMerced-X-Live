@@ -284,7 +284,8 @@
     }
 
     .voucher-container{
-        margin-top: -30vw;
+        margin-top: -8vw;
+        /* outline: blueviolet solid 8px; */
     }
 }
 @media screen and (min-width: 300px) and (max-width: 380px) {
@@ -397,10 +398,11 @@
         /* margin-top: -36vw; */
         /* margin-top: -8vw; */
         /* margin-top: 38vw; */
-        margin-top: clamp(-36vw, -8vw, 38vw);
+        /* margin-top: clamp(-36vw, -8vw, 38vw); */
+        margin-top: -16vw;
         margin-bottom: 1rem;
         z-index: 0;
-        /* outline: green solid 4px; */
+        /* outline: burlywood solid 8px; */
     }
     
     .profile-voucher-panel{
@@ -448,4 +450,58 @@
     
     
 
+}
+
+
+
+
+
+
+/* Extra extra small devices (very small phones, 480px and down) */
+@media (max-width: 375px) {
+    .voucher-container{
+        margin-top: -8vw;
+        /* outline: red solid 3px; */
+    }
+    .voucher-title{
+        top: -15%;
+        
+    }
+    .voucher-form{
+        top: 5%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 481px) and (max-width: 600px) {
+    .voucher-container{
+        margin-top: -8vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .voucher-container{
+        margin-top: -8vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 880px) {
+    .voucher-container{
+        margin-top: -8vw;
+    }
+}
+
+@media (max-height: 568px) and (max-width: 320px){
+    .voucher-container{
+        margin-top: -8vw;
+    }
+    .voucher-title{
+        top: -25%;
+        
+    }
+    
+    .voucher-form{
+        top: -5%;
+    }
 }
