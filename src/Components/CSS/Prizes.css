@@ -121,6 +121,13 @@
 
 /* Viewports */
 
+
+@media (max-width: 375px) {
+  .prizes-claim{
+    font-size: 0.3em;
+  }
+}
+
 /* Extra extra small devices (very small phones, 480px and down) */
 @media (max-width: 480px) {
     .prizes-points {
@@ -131,9 +138,6 @@
       }
       .prize {
         font-size: 0.7rem;
-      }
-      .nav-items {
-        width: 2%;
       }
 }
 
