@@ -54,12 +54,26 @@
 .event-content{
     z-index: 3;
     position: relative;
-    top: 0rem;
+    top: 1rem;
     left: 30rem;
 
     /* border: 3px red solid; */
     max-width:30rem;
     text-align: left;
+}
+.event-text{
+    /* outline: red solid 3px; */
+    /* position: absolute;
+    top: 1rem; */
+    width: max-content;
+    max-height: 20rem;
+    height: 20rem;
+    max-width: 30rem;
+    overflow: scroll;
+    scrollbar-width: none; 
+}
+.event-text::-webkit-scrollbar {
+    display: none; 
 }
 .event-content b{
     color: #FFA052;
@@ -101,7 +115,7 @@
     max-width: 30rem;
     position: absolute;
     left: 32rem;
-    top: 1.5rem;
+    top: 0.8rem;
     outline: #422162 0.6rem solid;
 }
 
@@ -135,15 +149,24 @@
     .event-content{
         /* outline: solid green 3px; */
         position: absolute;
-        top: 0rem;
+        top: 1rem;
         left: 7rem;
         max-width: 25rem;
-        height: 25rem;
+        height: fit-content;
         max-height: 25rem;
-        display: block;
+        display: flex;
+        flex-direction: column;
         font-size: 0.8em;
         font-weight: 600;
-        overflow-y: scroll;
+        overflow: scroll;
+    }
+    .event-text{
+        /* outline:red solid 3px; */
+        width: 30rem;
+        height: max-content;
+        max-width: 18rem;
+        max-height: 100rem;
+        overflow: visible;
     }
     .event-content b{
         font-size: 1em;
@@ -168,6 +191,7 @@
         position:relative;
         left: 1rem;
         width: 12rem;
+        top: 1rem;
         margin-top: 1rem;
     }
 }
