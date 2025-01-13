@@ -76,3 +76,4 @@ Bonus features that we can try to include:
 4. my text scroll gradient in the main page annoucment panel does not work on safari.
 5. the auth can be more character buildingy refer ot figma for detaisl
 6. 3d tower for landing page
+7. Profile settings page we can add an activity log
