@@ -348,3 +348,21 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 375px){
+    .main-page-announcment-panel{
+        /* outline: red solid 3px; */
+        width: 20rem;
+        z-index: 0;
+    }
+    .panel-text.annountment-panel-text h1{
+        /* outline: green solid 3px; */
+        transform: translateY(50%);
+        z-index: 1000  ;
+    }
+    .panel-text.annountment-panel-text .contain-announcments{
+        /* outline: green solid 3px; */
+        transform: translateY(4%);
+        z-index: 1000;
+    }
+}

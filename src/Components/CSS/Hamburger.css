@@ -53,7 +53,6 @@
         position: absolute;
         padding-top: 50px;
         padding-bottom: 30px;
-        /* outline: red solid 3px; */
     }
 
     .burger-bar:nth-child(2){
@@ -103,5 +102,29 @@
 
     .burger-bar.unclicked {
         transform: rotate(0) translate(0);
+    }
+}
+
+
+/* Extra extra small devices (very small phones, 480px and down) */
+@media (max-width: 414px) {
+    .menu-buttons{
+        display: flex;
+        transform: translateX(-10%);
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 375px) {
+    .menu-buttons{
+        display: flex;
+        transform: translateX(-15%);
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 320px) {
+    .menu-buttons{
+        display: flex;
+        transform: translateX(-20%);
+        font-size: 0.9em;
     }
 }
