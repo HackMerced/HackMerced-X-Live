@@ -192,6 +192,7 @@
 @supports not (animation-timeline: view()){
     .scroll-reveal span{
         color: white;
+        background-image: linear-gradient(white,white);
     }
 }
 
@@ -208,7 +209,10 @@
         /* outline: red solid 3px; */
         transform: translateY(6%);
     }
-    
+    .scroll-reveal span{
+        color: white;
+        background-image: linear-gradient(white,white);
+    }
       
         
 }
@@ -284,19 +288,22 @@
         font-size: 34px;
     }
 
-    .scroll-reveal span {
+    /* .scroll-reveal span {
         color: hsl(0 0% 100% / 0.2);
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0% 100%;
-        /* background-image: linear-gradient(90deg, #FF55FF, #FFA052); */
+        background-image: linear-gradient(90deg, #FF55FF, #FFA052);
         background-image: linear-gradient(90deg, white, white);
         animation: scroll-reveal linear forwards;
         animation-timeline: view();
         animation-range-start: contain 10%; 
         animation-range-end: contain 20%;   
+    } */
+    .scroll-reveal span{
+        color: white;
+        background-image: linear-gradient(white,white);
     }
-    
 }
 
 @media (max-width: 880px) {
